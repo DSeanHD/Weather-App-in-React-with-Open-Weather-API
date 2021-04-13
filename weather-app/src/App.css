@@ -1,0 +1,43 @@
+* {font-family: sans-serif;}
+body {background-image: url('https://www.wallpaperflare.com/static/887/996/885/drawing-sky-clouds-cloudy-wallpaper.jpg');}
+
+:root {
+    --full-background: rgb(55, 190, 214);
+    --font-color: rgba(228, 224, 224, 0.979);
+}
+
+header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+  
+.weather {
+    text-align: center;
+    color: var(--font-color);
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    border: none;
+    padding: 8px;
+    width: 35%;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(228, 224, 224, 0.979);
+    box-shadow: rgba(243, 241, 241, 0.774) 0px 3px;
+}
+
+.Search {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(12, 177, 206);
+    box-shadow: rgba(243, 241, 241, 0.774) 0px 3px;
+    border-radius: 15px;
+    margin-top: 50px;
+    width: 30%;
+}
